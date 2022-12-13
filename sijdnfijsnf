@@ -1,0 +1,45 @@
+-- // script made by jets 0001 dum nigga
+-- // script made by jets 0001 dum nigga
+-- // script made by jets 0001 dum nigga
+-- // script made by jets 0001 dum nigga
+-- // script made by jets 0001 dum nigga
+-- // script made by jets 0001 dum nigga
+-- // script made by jets 0001 dum nigga
+-- // jetsW -- // jetsW -- // jetsW -- // jetsW -- // jetsW -- // jetsW
+-- // jetsW-- // jetsW-- // jetsW-- // jetsW-- // jetsW-- // jetsW
+-- \ jetsW-- \ jetsW-- \ jetsW-- \ jetsW-- \ jetsW-- \ jetsW
+-- // jetsW -- // jetsW -- // jetsW -- // jetsW -- // jetsW -- // jetsW
+-- // jetsW -- // jetsW -- // jetsW -- // jetsW -- // jetsW -- // jetsW
+-- // jetsW-- // jetsW-- // jetsW-- // jetsW-- // jetsW-- // jetsWjetsW
+-- \ jetsW-- \ jetsW-- \ jetsW-- \ jetsW-- \ jetsW-- \ jetsW
+--toggle button (q)
+local hotkey = "q" -- toggle key
+local mouse = game.Players.LocalPlayer:GetMouse()
+
+
+mouse.KeyDown:Connect(function(key)
+if key == hotkey then
+if getgenv().DaHoodSettings.SilentAim == true then
+getgenv().DaHoodSettings.SilentAim = false
+else
+getgenv().DaHoodSettings.SilentAim = true
+end
+end
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/B3X2/ZP-WARE/main/v2"))()
+DaHoodSettings.Prediction = 0.120
+--change parts if need
+EarthParts = true
+EarthParts = {
+"Head",
+"HumanoidRootPart",
+"LeftLowerLeg",
+"LeftFoot",
+"LeftArm",
+"RightArm",
+"LowerTorso"
+}
+FOVCircle = 23
+HitChance = 115
+ShowFOV = false
+--dont show fov idoit
